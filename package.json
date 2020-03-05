@@ -7,5 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Victor Abbah Nkoms",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "dropzone": "^5.7.0",
+    "vue": "^2.6.11"
+  }
 }
