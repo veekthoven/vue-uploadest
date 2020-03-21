@@ -1,6 +1,6 @@
 {
   "name": "vue-uploadest",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A vue package to handle file upload without forcing you to use a particular UI",
   "main": "dist/index.js",
   "scripts": {
