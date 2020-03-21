@@ -2,13 +2,20 @@
   "name": "vue-uploadest",
   "version": "1.0.0",
   "description": "A vue package to handle file upload without forcing you to use a particular UI",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "npm run development",
+    "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "npm run development -- --watch"
   },
   "author": "Victor Abbah Nkoms",
   "license": "MIT",
   "dependencies": {
     "dropzone": "^5.7.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.2",
+    "laravel-mix": "^5.0.4",
+    "vue-template-compiler": "^2.6.11"
   }
 }
