@@ -9,7 +9,6 @@
   "author": "Victor Abbah Nkoms",
   "license": "MIT",
   "dependencies": {
-    "dropzone": "^5.7.0",
-    "vue": "^2.6.11"
+    "dropzone": "^5.7.0"
   }
 }
